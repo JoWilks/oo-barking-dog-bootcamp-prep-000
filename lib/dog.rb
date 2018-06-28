@@ -1,7 +1,15 @@
 class Dog
   
   def name=(name)
-    @name = na,e
+    @name = name
+  end
+  
+  def name
+    @name
+  end
+  
+  def bark
+    puts "woof!"
   end
   
 end
